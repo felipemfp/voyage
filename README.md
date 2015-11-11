@@ -1,4 +1,4 @@
-# Voyage
+# Voyage - Gerenciador de Viagens
 **Disciplina**: Projeto de Interface do Usuário
 
 **Professor**: Danielle Freitas
