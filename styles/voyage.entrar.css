@@ -1,16 +1,27 @@
-﻿html, body {    
+﻿html {
+  font-size: 17px;
+}
+@media (max-width: 900px) {
+  html { font-size: 15px; }
+}
+@media (max-width: 400px) {
+  html { font-size: 13px; }
+}
+
+html, body {    
     height: 100%;
-    background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.5)), url("../images/layout/background.jpg");
-    background-image: -moz-linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.5)), url("../images/layout/background.jpg");
-    background-image: -ms-linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.5)), url("../images/layout/background.jpg");
-    background-image: -o-linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.5)), url("../images/layout/background.jpg");
-    background-image: linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.5)), url("../images/layout/background.jpg");
+    background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.4), rgba(0,0,0,0.6)), url("../images/layout/background.jpg");
+    background-image: -moz-linear-gradient(top, rgba(0,0,0,0.4), rgba(0,0,0,0.6)), url("../images/layout/background.jpg");
+    background-image: -ms-linear-gradient(top, rgba(0,0,0,0.4), rgba(0,0,0,0.6)), url("../images/layout/background.jpg");
+    background-image: -o-linear-gradient(top, rgba(0,0,0,0.4), rgba(0,0,0,0.6)), url("../images/layout/background.jpg");
+    background-image: linear-gradient(top, rgba(0,0,0,0.4), rgba(0,0,0,0.6)), url("../images/layout/background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 body {
     font-family: "Tw Cen MT", Arial, sans-serif;
+	font-size: 100%;
 }
 
 a {
@@ -19,45 +30,48 @@ a {
 }
 
 .button {
-    padding: .2em .75em;
+    padding: .2em 1.35em;
     border-radius: .2em;
     border: .1em solid white;
-    border-bottom: 0.2em solid;
+    border-bottom: 0.15em solid;
 }
 
 section {
-    padding: 25px 0;
+    padding: 30px 0;
     position: absolute;
     color: white;
-    background-color: rgba(0,0,0,0.25);
     top: 50%;
     margin-top: -150px;
-    height: 250px;
+    height: 200px;
     width: 100%;
     text-align: center;
 }
 
 section > h1 {
-    font-size: 72px;
+	font-family: "tw cen mt condensed", "tw cen mt", arial, sans-serif;
+    font-size: 4em;
     font-weight: 600;
     margin-bottom: .5em;
 }
 
-section > h1 > small {
+section > h1 > small {	
+	font-family: "tw cen mt", arial, sans-serif;
     display: block;
-    font-size: 36px;
+    font-size: 0.4em;
     font-weight: 400;
+	line-height: 1.2em;
 }
 
     section .button {
         margin-top: 5em;
-        font-size: 36px;
+        font-size: 26px;
     }
 
 header {
+	font-family: "tw cen mt condensed", "tw cen mt", arial, sans-serif;
     padding-top: 1em;
     margin: 0 2.5em;
-    font-size: 26px;
+    font-size: 1.75em;
     font-weight: 600;
 }
 
@@ -70,7 +84,9 @@ header {
         float: left;
     }
 
-header .button {    
+header .button {   
+    font-size: 0.8em;
+	font-family: "tw cen mt", arial, sans-serif; 
     font-weight: 400;
     float: right;
 }
