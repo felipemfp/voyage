@@ -72,11 +72,16 @@ header .right {
 	font-weight: 400;
 	font-family: "Tw Cen MT", Arial, sans-serif;
 }
-
+	
 header div img {
+	margin-right: .3em;
+	vertical-align: middle;
+}
+
+header div.right img {
 	border-radius: 100%;
 	vertical-align: middle;
-	width: 2em;
+	height:2em;
 }
 
 .breadcrumb {	
@@ -98,4 +103,13 @@ main {
 	max-width: 90%;
 	margin: 1em auto;
 	padding: 1em;
+}
+
+footer {
+	margin-top: 2em;
+	text-align: center;
+	clear: both;
+	padding: 1em 5%;
+	background-color: #212121;
+	color: #fff;
 }

@@ -60,6 +60,15 @@ section > h1 > small {
     font-size: 0.4em;
     font-weight: 400;
 	line-height: 1.2em;
+	max-width: 50%;
+	margin: 0 auto;
+}
+
+@media (max-width: 900px) {
+  section > h1 > small { max-width: 95%; }
+}
+@media (max-width: 400px) {
+  section > h1 > small { max-width: 95%; }
 }
 
     section .button {
@@ -73,6 +82,13 @@ header {
     margin: 0 2.5em;
     font-size: 1.75em;
     font-weight: 600;
+}
+
+@media (max-width: 900px) {
+  header { margin: 0 1.5em; }
+}
+@media (max-width: 400px) {
+  header { margin: 0 .5em; }
 }
 
     header img {
