@@ -58,7 +58,7 @@ header {
 	font-size: 1.75em;
 	padding: 1.5em 0 .75em;	
 	padding: 1em 5%;
-	font-weight: 600;
+	font-weight: 900;
 	font-family: "Tw Cen MT Condensed","Tw Cen MT", Arial, sans-serif;
 }
 
@@ -95,6 +95,7 @@ header div.right img {
 	color: #ccc;
 }
 .breadcrumb .active.item {
+	font-weight: 900;
 	color: #fff;
 }
 

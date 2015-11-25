@@ -28,7 +28,7 @@
 	box-sizing: border-box;	
 	width: 20%;
 	line-height: 1.5em;
-	margin-left: 6%;
+	margin-right: 6%;
 }
 
 @media (max-width: 900px) {
@@ -36,7 +36,7 @@
 	display: block;
 	width: 100%;
 	margin-bottom:1em;
-	margin-left: 0;
+	margin-right: 0;
 }
 }
 @media (max-width: 400px) {
@@ -44,12 +44,12 @@
 	display: block;
 	width: 100%;
 	margin-bottom:1em;
-	margin-left: 0;
+	margin-right: 0;
 }
 }
 
-.cards .card:first-child{	
-	margin-left: 0;
+.cards .card:last-child{	
+	margin-right: 0;
 }
 
 .card .image img {
@@ -57,7 +57,7 @@
 }
 
 .card .title {
-	font-weight: 600;
+	font-weight: 900;
 	font-family: "Tw Cen MT Condensed","Tw Cen MT", Arial, sans-serif;
 	font-size: 1.25em;
 }
