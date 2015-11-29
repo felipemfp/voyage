@@ -1,0 +1,93 @@
+.form {
+	margin-bottom: 2em;
+}
+
+.form select {
+    font: inherit;
+	border: .1em #cecece solid;
+	border-bottom: .2em #cecece solid;
+	padding: 0.5em;
+	font-size: 1.25em;
+	width:100%;
+	box-sizing: border-box;
+	margin-bottom: 1em;
+	color: #cecece;
+}
+
+.form select option:first-child {
+	display:none;
+}
+
+.form label {
+	color: #cecece;
+}
+
+button {
+    font: inherit;
+	float:right;
+	padding: .5em 2em;
+	text-align: center;
+	background-color: #cfcfcf;	
+	color: #fff;
+	font-size: 1.25em;
+	border: 0;
+}
+
+button:hover {
+	opacity: 0.75;
+	cursor: pointer;
+}
+
+.list {
+	clear:both;
+	margin-bottom: 2em;
+}
+
+.list:last-child {
+	margin-bottom: inherit;
+}
+
+.list .item {
+	clear:both;
+	margin-bottom: 1em;
+}
+
+.list .item .image {
+	width: 10em;
+	height: 10em;
+	float: left;
+}
+
+.list .item .content {
+	margin-left: 11em;
+	min-height: 10em;
+}
+
+.list .item .image img {
+	width: 100%;
+}
+
+.list .item .content .avatar {
+	margin-top: 1em;
+}
+
+.list .item .content .avatar img {
+	border-radius: 100%;
+	vertical-align: middle;
+	height:2.25em;
+}
+
+.list .item .content .title {
+	font-weight: 900;
+	font-family: "Tw Cen MT Condensed","Tw Cen MT", Arial, sans-serif;
+	font-size: 1.25em;
+}
+
+.list .item .content .meta {
+	color: #777777;
+}
+
+.list .item .content .description {
+	margin-top: 0.75em;
+	color: #777777;
+}
